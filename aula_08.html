@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO supply a title</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <form method="POST" action="aula_08.php">
+      <fieldset>
+        <legend>Cadastro de CD</legend>
+        <p><label for="artista">Artista:<input type="text" name="Nome_Artista" placeholder="Nome do Artista"></label></p>
+        
+        <p><label for="titulo">Título:<input type="text" name="Titulo_CD" placeholder="Título do CD"></label></p>
+        
+        <p>Descrição:</p>
+        <p><textarea name="Descricao" rows="10" cols="20"></textarea></p>
+        
+        <p><label for="preco">Preço:<input type="number" name="Preco_CD"></label></p>
+        
+        <p><label for="ano">Ano:<input type="date" name="Data_Lancamento"></label></p>
+        
+        <p><label for="Estilo_Musical">Estilo:
+            <select name="Estilo_Musical">  
+              <option value="Rock" name="Rock">Rock</option>
+              <option value="Samba" name="Samba">Samba</option>
+              <option value="Funk" name="Funk">Funk</option>
+              <option value="Reggae" name="Reggae">Reggae</option>
+            </select>
+          </label>
+        </p>
+        
+        <p><label for="Gravadora">Gravadora:
+          <select name="Gravadora">
+              <option value="Joia Moderna" name="Joia_Moderna">Joia Moderna</option>
+              <option value="Sete Taças" name="Sete_Taças">Sete Taças</option>
+              <option value="Novo Tempo" name="Novo_Tempo">Novo Tempo</option>
+              <option value="Velas de Areia" name="Velas_de_Areia">Velas de Areia</option>
+            </select>
+          </label>
+        </p>
+        
+        <p>Músicas:</p>
+        <p><textarea name="Musicas" rows="10" cols="20"></textarea></p>
+        
+        <input type="submit" name="button" value="Inserir">
+        <input type="submit" name="button" value="Selecionar">
+        <input type="submit" name="button" value="Atualizar">
+        <input type="submit" name="button" value="Deletar">
+        <input type="submit" name="button" value="Limpar">
+        
+      </fieldset>
+    </form>
+  </body>
+</html>
